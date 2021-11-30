@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.upper-part {
+  min-height: 500px;
+  width: 100%;
+  background-image:url(../images/background\ photo.png);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container{
+  width: 1400px;
+  height: 55px;
+  margin: auto;
+  position: fixed;
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo{
+  height: 52px;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 20px;
+  float: left;
+}
+.upper-part .container nav .menu ul li a:hover{
+  color: gray;
+}
+.about-section .container-about .title-about h2 ::after{
+  content: "";
+  width: 55px;
+  height: 2px;
+  background-color: black;
+  display: block;
+  margin: 10px auto;
+}
+img{
+  float: left;
+}
+.hire-button{
+display: inline-block;
+text-decoration: none;
+color: black;
+border: 1px solid gray;
+padding: 12px 34px;
+font-size: 13px;
+font-weight: 600;
+background: gray;
+position: relative;
+margin-top: 10px;
+}
+.hire-button :hover{
+  color: white;
+}
+.what-i-do-section .container-what-i-do .what-i-do-title h2 ::after{
+content: "";
+width: 50px;
+height: 2px;
+background-color: black;
+display: block;
+margin: auto;
+}
+.what-i-do-main{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+.my-works-section .container-my-works-section .my-works-title h2 ::after{
+content: "";
+width: 50px;
+height: 2px;
+background-color: black;
+display: block;
+margin: 10px auto;
+}
+.my-works-icons{
+  padding: auto;
+  color: black;
+  margin-right: 500px; 
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.my-works-icons :hover{
+  color: black;
+  font-weight: bold;
+}
+.my-works-main{
+  margin: 120px auto;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.row .col{
+  padding: 12px;
+  margin: 12px;
+}
+.col-4 .photos{
+  width: calc(100% / 12 * 4);
+}
+.photos{
+  padding: 0 20px 20px;
+}
+.image{
+  display: inline-block;
+  text-align: center;
+}
+figure{
+  overflow: hidden;
+  margin: 0 10px;
+}
+.image img{
+display: block;
+width: 100%;
+height: auto;
+cursor: pointer;
+}
+.image #zoom-in img{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.image #zoom-in :hover img{
+  transform: scale(1.5);
+}
+.contact-me-section .container-contact-me .contact-me-title h2 ::after{
+  content: "";
+  width: 55px;
+  height: 2px;
+  background-color: black;
+  display: block;
+  margin: 10px auto;
+}
+.contact-me-title{
+  margin-bottom: 70px;
+}
+.contact-me-main{
+  max-width: 500px;
+  margin: auto;
+}
+.login-form{
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.icon{
+  width: 50px;
+  padding: 20px;
+  text-align: center;
+}
+.input-part{
+  width: 100%;
+  padding: 12px;
+}
+.btn{
+display: inline-block;
+text-decoration: none;
+color: black;
+border: 1px solid gray;
+padding: 12px 34px;
+font-size: 13px;
+font-weight: 600;
+background: gray;
+position: relative;
+margin-left: 50px;
+margin-top: 10px;
+}
+.btn :hover{
+  color: white;
+}
+.last-part{
+  height: 250px;
+  background-color: gray;
+  margin-top: 100px;
+  text-align: center;
+}
+.personal-info{
+  padding-top: 50px;
+  color: white;
+}
+.social-media-accounts{
+  margin-right: 520px;
+}
+.social-media-accounts a :hover{
+  color: white;
+}.upper-part menu {
+  width: 480px;
+  float: right;
+  height: 70px;
+}
+
+
+.upper-part ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.upper-part li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.upper-part a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-section .container-about {
+  text-align: center;
+  position: relative;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 200px auto;
+}
+.about-section .title-about{
+  margin-bottom: 100px;
+}
+
+.about-me-main p {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.about-me-main .title {
+  font-size: 20px;
+}
+
+.what-i-do-section .container-what-i-do {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.what-i-do-section h2 {
+  margin-bottom: 20px;
+}
+
+.what-i-do-main div {
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.what-i-do-main p {
+  padding-left: 42px;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.my-works-section ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my-works-section li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.my-works-section a {
+  text-decoration: none;
+  color: gray;
+}
+
+.my-works-section .container-my-works-section {
+  position: relative;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.my-works-section h2 {
+  margin-bottom: 20px;
+}
+
+.icon i {
+  font-size: 50px;
+}
+
+.contact-me-section .container-contact-me {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.contact-me-section h2 {
+  margin-bottom: 20px;
+}
+
+.last-part ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.last-part li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.last-part a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

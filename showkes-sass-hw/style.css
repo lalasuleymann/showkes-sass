@@ -1,0 +1,170 @@
+.upper-part menu {
+  width: 480px;
+  float: right;
+  height: 70px;
+}
+
+.upper-part ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.upper-part li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.upper-part a {
+  text-decoration: none;
+  color: black;
+}
+
+.upper-part nav {
+  padding: 0px 20px;
+}
+
+.about-section .container-about {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  width: 80%;
+  align-items: center;
+  margin: 200px auto;
+}
+
+.about-section-title-about {
+  margin-bottom: 100px;
+}
+
+.about-section h2 {
+  margin-bottom: 100px;
+}
+
+.about-me-main img {
+  width: 474px;
+  height: 344px;
+  margin: 20px auto;
+}
+
+.about-me-main p {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.about-me-main title {
+  font-size: 20px;
+}
+
+.what-i-do-sectioncontainer-what-i-do {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.what-i-do-section h2 {
+  margin-bottom: 20px;
+}
+
+.what-i-do-main div {
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 13px;
+}
+
+.what-i-do-main p {
+  padding-left: 42px;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.my-works-section ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my-works-section li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.my-works-section a {
+  text-decoration: none;
+  color: gray;
+}
+
+.my-works-section container-my-works-section {
+  position: relative;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.my-works-section h2 {
+  margin-bottom: 20px;
+}
+
+.icon i {
+  font-size: 50px;
+}
+
+.contact-me-section container-contact-me {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.contact-me-section h2 {
+  margin-bottom: 20px;
+}
+
+.last-part ul {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.last-part li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.last-part a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-media-accounts a {
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
